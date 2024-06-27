@@ -5,12 +5,11 @@
 // myArray = ["U" ," n"]
 // myArray[1]
 
-// Object literals
+// Object literals :- https://www.w3schools.com/js/js_object_definition.asp
 // Use :-  Key , Values 
 
 const mySym = Symbol("Key1")
-
-
+//  Symbol (Data Type):- https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
 
 
 const JsUser = {
