@@ -1,3 +1,17 @@
+// [Prototype]]:  Object
+// // constructor : 
+// Object() hasOwnProperty()
+//          isPrototypeOf()
+//          propertyIsEnumerable()
+//          toLocaleString()
+//          toString()
+//          valueOf()
+//          __defineGetter__()
+//          __defineSetter__()
+//          __lookupGetter__()
+//          __lookupSetter__()
+//          __proto__()
+
 // Objects 
 
 // const tinderUser2 = new Object() // Singleton object  
@@ -60,27 +74,47 @@ const users = [
 ]
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
-// [Prototype]]:  Object
-// // constructor : 
-// Object() hasOwnProperty()
-//          isPrototypeOf()
-//          propertyIsEnumerable()
-//          toLocaleString()
-//          toString()
-//          valueOf()
-//          __defineGetter__()
-//          __defineSetter__()
-//          __lookupGetter__()
-//          __lookupSetter__()
-//          __proto__()
+const course ={
+    coursename : "JS in Hindi",
+    prize : "999",
+    courseInstructor : "Unique"
+}
 
+// course.courseInstructor
+
+const {courseInstructor : CI} = course
+console.log(CI);
+
+// object D-structuring in react
+// const navbar = ({company}) => {
+
+// }
+
+// navbar(company = "unique")
+
+// JSON :- API :- https://jsonformatter.org/
+// {
+//     "name" : "Unique",
+//     "tutorial" : "JS in Hindi",
+//     "price" : "free",
+
+// }
+
+//  API name :-  https://randomuser.me/
+[
+    {},
+    {},
+    {},
+]
+
+//  https://api.github.com/users/uniquejn30
 
 
